@@ -1,9 +1,9 @@
 {
-    "name": "ai-commit",
+    "name": "xxx-ai-commit-code",
     "version": "1.0.0",
     "description": "Generate commit messages automatically from git diff using AI",
     "bin": {
-      "ai-commit": "./bin/index.js"
+      "xxx-ai-commit-code": "./bin/index.js"
     },
     "type": "module",
     "scripts": {
