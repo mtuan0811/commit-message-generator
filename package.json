@@ -1,0 +1,27 @@
+{
+    "name": "commit-message-generator",
+    "version": "1.0.0",
+    "description": "Generate commit messages automatically from git diff using AI",
+    "bin": {
+      "commit-message-generator": "./bin/index.js"
+    },
+    "type": "module",
+    "scripts": {
+      "start": "node ./bin/index.js"
+    },
+    "dependencies": {
+      "axios": "^1.5.0",
+      "dotenv": "^16.3.1",
+      "inquirer": "^9.2.7"
+    },
+    "keywords": [
+      "git",
+      "commit",
+      "ai",
+      "openai",
+      "conventional-commits"
+    ],
+    "author": "Your Name",
+    "license": "MIT"
+  }
+  
